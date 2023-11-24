@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "292343929356",
+    "project_id": "deaftouch-e3f3d",
+    "storage_bucket": "deaftouch-e3f3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292343929356:android:44ceedca84cf2b9534ac29",
+        "android_client_info": {
+          "package_name": "edu.ucu.cite.deaftouchapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292343929356-a9mt35hl4u629omomap79s35nqv66c13.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.ucu.cite.deaftouchapp",
+            "certificate_hash": "a3bbb9b94f606ba2be05f7dbf0ca160767808a01"
+          }
+        },
+        {
+          "client_id": "292343929356-5pa5sc0lbdhr1c0sjd57b8rq02f5a7g0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx0oW89IHpA6Ah6FfmX1NVNuaittRZ1uI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292343929356-5pa5sc0lbdhr1c0sjd57b8rq02f5a7g0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

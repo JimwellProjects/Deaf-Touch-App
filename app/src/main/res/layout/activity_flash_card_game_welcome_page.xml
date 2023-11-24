@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FlashCardGameWelcomePage"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="65dp"
+        android:src="@drawable/logo2"
+        android:layout_gravity="center"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#E42193B0">
+
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="280dp"
+                android:layout_gravity="center"
+                android:src="@drawable/gameimage1"
+                android:scaleType="fitXY"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FLashCard Sign"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:fontFamily="@font/righteous"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/righteous"
+                    android:paddingLeft="20dp"
+                    android:text="Language Game"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/gameimage2"
+                    android:scaleType="fitXY"/>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="50dp"
+                android:text="Start Playing"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="#021C49"
+                android:textSize="16sp"
+                android:fontFamily="@font/righteous"
+                android:onClick="FLashCardGame"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                app:cardCornerRadius="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:onClick="ShowPopUp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#36EDEDED">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="How To Play?"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#252525"
+                        android:fontFamily="@font/baloo_thambi"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

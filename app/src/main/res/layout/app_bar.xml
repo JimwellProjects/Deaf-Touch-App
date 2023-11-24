@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        app:elevation="0dp"
+        android:fitsSystemWindows="true"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.AppCompat.AppOverlay1"
+        android:background="?actionBarItemBackground">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:background="?actionBarItemBackground"
+                android:id="@+id/sidetoolbar"
+                app:popupTheme="@style/Theme.AppCompat.popUpOverlay"
+                app:layout_scrollFlags="scroll|enterAlways"
+                android:layout_height="60dp">
+
+                <Button
+                    android:id="@+id/togglebutton"
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="22dp"
+                    android:background="@drawable/menuicon"
+                    android:gravity="start" />
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="65dp"
+                        android:src="@drawable/logo2"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

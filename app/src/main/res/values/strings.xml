@@ -1,0 +1,578 @@
+<resources>
+    <string name="app_name">DeafTouch</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="about">       This application helps to those people who has hearing issues.
+                        Through this application they can easily communicate to the people.
+                        This application can also use by a normal person when she/he wants to learn sign languages.
+                        This application has a features where you can learn proper hand sign of letters, greeting, emotion and etc.
+                        It has also unique features that you can play a quiz game where you will guess what word that the hand sign means.</string>
+
+    <string name="loremepsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </string>
+
+    <string-array name="suggestions">
+        <!--        Categories-->
+
+        <!--Alphabets-->
+
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+
+        <!--Animals-->
+
+        <item>Aligator</item>
+        <item>Bear</item>
+        <item>Bird</item>
+        <item>Cat</item>
+        <item>Cow</item>
+        <item>Dog</item>
+        <item>Duck</item>
+        <item>Elephant</item>
+        <item>Fish</item>
+        <item>Frog</item>
+        <item>Giraffe</item>
+        <item>Lion</item>
+        <item>Mouse</item>
+        <item>Owl</item>
+        <item>Pig</item>
+        <item>Rat</item>
+        <item>Snake</item>
+        <item>Tiger</item>
+        <item>Wolf</item>
+        <item>Zibra</item>
+
+        <!--Colors-->
+
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Brown</item>
+        <item>Gold</item>
+        <item>Orange</item>
+        <item>Purple</item>
+        <item>Tan</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Red</item>
+
+        <!--Emotions-->
+        <item>Angry</item>
+        <item>Bored</item>
+        <item>Calm</item>
+        <item>Cheeky</item>
+        <item>Contented</item>
+        <item>Depressed</item>
+        <item>Disgust</item>
+        <item>Excited</item>
+        <item>Frightened</item>
+        <item>Happy</item>
+        <item>Nervous</item>
+        <item>Relax</item>
+        <item>Sad</item>
+        <item>Shy</item>
+        <item>Sleepy</item>
+        <item>Sneaky</item>
+        <item>Stressed</item>
+        <item>Surprised</item>
+        <item>Tense</item>
+        <item>Upset</item>
+        <item>Sorry</item>
+
+        <!--Greetings -->
+        <item>Good Afternoon</item>
+        <item>Good Bye</item>
+        <item>Good Day</item>
+        <item>Good Evening</item>
+        <item>Good Morning</item>
+        <item>Good To See You</item>
+        <item>Hello</item>
+        <item>How Is It Going</item>
+        <item>How Old Are You </item>
+        <item>Im Fine </item>
+        <item>Long Time No See</item>
+        <item>Nice To Meet You </item>
+        <item>Thank You</item>
+        <item>Welcome </item>
+        <item>Whats Going On </item>
+
+        <!--Everything We Do  -->
+
+        <item>Clean</item>
+        <item>Climb</item>
+        <item>Cooking</item>
+        <item>Cry</item>
+        <item>Drink</item>
+        <item>Eat</item>
+        <item>Fall Down</item>
+        <item>Give</item>
+        <item>Laugh</item>
+        <item>Look</item>
+        <item>Push</item>
+        <item>Reading</item>
+        <item>Run</item>
+        <item>Sit</item>
+        <item>Sleep</item>
+        <item>Swim</item>
+        <item>Wait</item>
+        <item>Walk</item>
+        <item>Wash</item>
+        <item>Watching</item>
+
+        <!--Foods-->
+
+        <item>Bread</item>
+        <item>Cake</item>
+        <item>Candy</item>
+        <item>Cereal</item>
+        <item>Chicken</item>
+        <item>Chocolate</item>
+        <item>Coffee</item>
+        <item>Egg</item>
+        <item>French Fries</item>
+        <item>Fruit</item>
+        <item>Hamburger</item>
+        <item>Hotdog</item>
+        <item>Ice Cream</item>
+        <item>Meat</item>
+        <item>Milk</item>
+        <item>Pizza</item>
+        <item>Salad</item>
+        <item>Sandwich</item>
+        <item>Soda Pop</item>
+        <item>Vegetable</item>
+
+
+        <!--Months -->
+
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+
+
+        <!--Numbers -->
+
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+
+
+        <!--Parts Of The Body -->
+
+        <item>Arm</item>
+        <item>Back</item>
+        <item>Bald</item>
+        <item>Body</item>
+        <item>Ear</item>
+        <item>Eyes</item>
+        <item>Face</item>
+        <item>Foot</item>
+        <item>Hair</item>
+        <item>Hands</item>
+        <item>Head</item>
+        <item>Heart</item>
+        <item>Mouth</item>
+        <item>Neck</item>
+        <item>Nose</item>
+        <item>Stomach</item>
+
+
+        <!--Questions -->
+
+        <item>How Are You</item>
+        <item>How Many</item>
+        <item>How Much</item>
+        <item>How</item>
+        <item>Ok</item>
+        <item>What Kind</item>
+        <item>What To do</item>
+        <item>What</item>
+        <item>Whats Up</item>
+        <item>Whats Your Name</item>
+        <item>When</item>
+        <item>Where You From</item>
+        <item>Where</item>
+        <item>Which</item>
+        <item>Who Is That</item>
+        <item>Who</item>
+        <item>Why</item>
+        <item>You Ok</item>
+
+
+        <!-- No In Categories In Mobile Images -->
+
+
+        <!--Things In Home -->
+
+        <item>Battery</item>
+        <item>Blanket</item>
+        <item>Calculator</item>
+        <item>Chair</item>
+        <item>Credit Card</item>
+        <item>Fork</item>
+        <item>Gate</item>
+        <item>House</item>
+        <item>Key</item>
+        <item>Knife</item>
+        <item>Mirror</item>
+        <item>Nail Polish</item>
+        <item>Shoes</item>
+        <item>Spoon</item>
+        <item>Television</item>
+        <item>Tissue</item>
+        <item>Toothbrush</item>
+        <item>Trash</item>
+        <item>Utensil</item>
+        <item>Wallet</item>
+
+        <!--Places -->
+
+        <item>Backyard</item>
+        <item>Beach</item>
+        <item>Cafeteria</item>
+        <item>Church</item>
+        <item>City</item>
+        <item>Clinic</item>
+        <item>Desert</item>
+        <item>Farm</item>
+        <item>Garden</item>
+        <item>Hospital</item>
+        <item>Mall</item>
+        <item>Market</item>
+        <item>Mountain</item>
+        <item>Office</item>
+        <item>Park</item>
+        <item>Playground</item>
+        <item>River</item>
+        <item>School</item>
+        <item>Swimming Pool</item>
+        <item>Zoo</item>
+
+        <!--Health -->
+
+        <item>Abuse</item>
+        <item>Aid</item>
+        <item>Alcohol</item>
+        <item>Allergy</item>
+        <item>Asthma</item>
+        <item>Blind</item>
+        <item>Blood Pressure</item>
+        <item>Cancer</item>
+        <item>Cough</item>
+        <item>Hiv</item>
+        <item>Hurt</item>
+
+
+        <!--Vehicle -->
+
+        <item>Airplane</item>
+        <item>Bicyle</item>
+        <item>Boat</item>
+        <item>Bus</item>
+        <item>Car</item>
+        <item>Crash</item>
+        <item>Drive</item>
+        <item>Elevator</item>
+        <item>Escalator</item>
+        <item>Helicopter</item>
+        <item>Motorcycle</item>
+        <item>Rocket</item>
+        <item>Subway</item>
+        <item>Taxi Cab</item>
+        <item>Train</item>
+        <item>Travel</item>
+        <item>Truck</item>
+
+        <!--Family Members -->
+
+        <item>Auntie </item>
+        <item>Brother </item>
+        <item>Cousin </item>
+        <item>Dad </item>
+        <item>Family </item>
+        <item>Grand Father </item>
+        <item>Grand Ma</item>
+        <item>Kid </item>
+        <item>Mom </item>
+        <item>Nephew </item>
+        <item>Niece </item>
+        <item>Sister </item>
+        <item>Son </item>
+        <item>Uncle </item>
+
+        <!--Shapes -->
+
+        <item>Circle </item>
+        <item>Cone </item>
+        <item>Diamond </item>
+        <item>Heart </item>
+        <item>Oval </item>
+        <item>Rectangle </item>
+        <item>Square </item>
+        <item>Star </item>
+        <item>Triangle </item>
+
+        <!--New Gif -->
+
+        <item>Ask</item>
+        <item>Avoid</item>
+        <item>Bad</item>
+        <item>Come</item>
+        <item>English</item>
+        <item>Finish</item>
+        <item>Good</item>
+        <item>Good Night</item>
+        <item>Help</item>
+        <item>I Love You</item>
+        <item>Internet</item>
+        <item>Need</item>
+        <item>Old</item>
+        <item>Remember</item>
+        <item>Self</item>
+        <item>Take</item>
+        <item>Think</item>
+        <item>Want</item>
+        <item>Write</item>
+
+
+    </string-array>
+
+    <string name="score">Score 0/8</string>
+    <string name="question_number">1/8 Question</string>
+
+    <string name="selctedoption">SelctedOption</string>
+    <string name="correctanswer">CorrectAnswer</string>
+
+
+    FlashCard Questions
+
+
+    <string name="Alphabets_question_1">Which one is the sign for Alphabet A</string>
+    <string name="Alphabets_question_2">Which one is the sign for Alphabet B</string>
+    <string name="Alphabets_question_3">Which one is the sign for Alphabet C</string>
+    <string name="Alphabets_question_4">Which one is the sign for Alphabet D</string>
+    <string name="Alphabets_question_5">Which one is the sign for Alphabet E</string>
+    <string name="Alphabets_question_6">Which one is the sign for Alphabet F</string>
+    <string name="Alphabets_question_7">Which one is the sign for Alphabet G</string>
+    <string name="Alphabets_question_8">Which one is the sign for Alphabet H</string>
+    <string name="Alphabets_question_9">Which one is the sign for Alphabet I</string>
+    <string name="Alphabets_question_10">Which one is the sign for Alphabet J</string>
+    <string name="Alphabets_question_11">Which one is the sign for Alphabet K</string>
+    <string name="Alphabets_question_12">Which one is the sign for Alphabet L</string>
+    <string name="Alphabets_question_13">Which one is the sign for Alphabet M</string>
+    <string name="Alphabets_question_14">Which one is the sign for Alphabet N</string>
+    <string name="Alphabets_question_15">Which one is the sign for Alphabet O</string>
+    <string name="Alphabets_question_16">Which one is the sign for Alphabet P</string>
+    <string name="Alphabets_question_17">Which one is the sign for Alphabet Q</string>
+    <string name="Alphabets_question_18">Which one is the sign for Alphabet R</string>
+    <string name="Alphabets_question_19">Which one is the sign for Alphabet S</string>
+    <string name="Alphabets_question_20">Which one is the sign for Alphabet T</string>
+    <string name="Alphabets_question_21">Which one is the sign for Alphabet U</string>
+    <string name="Alphabets_question_22">Which one is the sign for Alphabet V</string>
+    <string name="Alphabets_question_23">Which one is the sign for Alphabet W</string>
+    <string name="Alphabets_question_24">Which one is the sign for Alphabet X</string>
+    <string name="Alphabets_question_25">Which one is the sign for Alphabet Y</string>
+    <string name="Alphabets_question_26">Which one is the sign for Alphabet Z</string>
+
+    <string name="Numbers_question_1">Which one is the sign for Number 1</string>
+    <string name="Numbers_question_2">Which one is the sign for Number 2</string>
+    <string name="Numbers_question_3">Which one is the sign for Number 3</string>
+    <string name="Numbers_question_4">Which one is the sign for Number 4</string>
+    <string name="Numbers_question_5">Which one is the sign for Number 5</string>
+    <string name="Numbers_question_6">Which one is the sign for Number 6</string>
+    <string name="Numbers_question_7">Which one is the sign for Number 7</string>
+    <string name="Numbers_question_8">Which one is the sign for Number 8</string>
+    <string name="Numbers_question_9">Which one is the sign for Number 9</string>
+    <string name="Numbers_question_10">Which one is the sign for Number 10</string>
+
+
+    <string name="Greetings_question_1">Which one is the sign for Good Morning</string>
+    <string name="Greetings_question_2">Which one is the sign for Good Bye</string>
+    <string name="Greetings_question_3">Which one is the sign for Welcome</string>
+    <string name="Greetings_question_4">Which one is the sign for Good To See You</string>
+    <string name="Greetings_question_5">Which one is the sign for Nice To Meet You</string>
+    <string name="Greetings_question_6">Which one is the sign for Good Evening</string>
+    <string name="Greetings_question_7">Which one is the sign for Hello</string>
+    <string name="Greetings_question_8">Which one is the sign for Good Afternoon</string>
+    <string name="Greetings_question_9">Which one is the sign for Whats Going On</string>
+    <string name="Greetings_question_10">Which one is the sign for Long Time No See</string>
+
+    <string name="Emotions_question_1">Which one is the sign for Contented</string>
+    <string name="Emotions_question_2">Which one is the sign for Relax</string>
+    <string name="Emotions_question_3">Which one is the sign for Sad</string>
+    <string name="Emotions_question_4">Which one is the sign for Tense</string>
+    <string name="Emotions_question_5">Which one is the sign for Happy</string>
+    <string name="Emotions_question_6">Which one is the sign for Sorry</string>
+    <string name="Emotions_question_7">Which one is the sign for Depressed</string>
+    <string name="Emotions_question_8">Which one is the sign for Angry</string>
+    <string name="Emotions_question_9">Which one is the sign for Nervous</string>
+    <string name="Emotions_question_10">Which one is the sign for Upset</string>
+
+
+    <string name="Colors_question_1">Which one is the sign for Gold</string>
+    <string name="Colors_question_2">Which one is the sign for Purple</string>
+    <string name="Colors_question_3">Which one is the sign for Red</string>
+    <string name="Colors_question_4">Which one is the sign for Tan</string>
+    <string name="Colors_question_5">Which one is the sign for Black</string>
+    <string name="Colors_question_6">Which one is the sign for Orange</string>
+    <string name="Colors_question_7">Which one is the sign for Blue</string>
+    <string name="Colors_question_8">Which one is the sign for Yellow</string>
+    <string name="Colors_question_9">Which one is the sign for Green</string>
+    <string name="Colors_question_10">Which one is the sign for Brown</string>
+
+    <string name="Animals_question_1">Which one is the sign for Bear</string>
+    <string name="Animals_question_2">Which one is the sign for Bird</string>
+    <string name="Animals_question_3">Which one is the sign for Owl</string>
+    <string name="Animals_question_4">Which one is the sign for Tiger</string>
+    <string name="Animals_question_5">Which one is the sign for Zibra</string>
+    <string name="Animals_question_6">Which one is the sign for Fish</string>
+    <string name="Animals_question_7">Which one is the sign for Elephant</string>
+    <string name="Animals_question_8">Which one is the sign for Cat</string>
+    <string name="Animals_question_9">Which one is the sign for Mouse</string>
+    <string name="Animals_question_10">Which one is the sign for Pig</string>
+
+    <string name="Foods_question_1">Which one is the sign for Meat</string>
+    <string name="Foods_question_2">Which one is the sign for Coffee</string>
+    <string name="Foods_question_3">Which one is the sign for Sandwich</string>
+    <string name="Foods_question_4">Which one is the sign for Bread</string>
+    <string name="Foods_question_5">Which one is the sign for Cereal</string>
+    <string name="Foods_question_6">Which one is the sign for Vegetable</string>
+    <string name="Foods_question_7">Which one is the sign for Pizza</string>
+    <string name="Foods_question_8">Which one is the sign for Hotdog</string>
+    <string name="Foods_question_9">Which one is the sign for Salad</string>
+    <string name="Foods_question_10">Which one is the sign for Cake</string>
+
+    <string name="EWD_question_1">Which one is the sign for Eat</string>
+    <string name="EWD_question_2">Which one is the sign for Look</string>
+    <string name="EWD_question_3">Which one is the sign for Sit</string>
+    <string name="EWD_question_4">Which one is the sign for Watching</string>
+    <string name="EWD_question_5">Which one is the sign for Sleep</string>
+    <string name="EWD_question_6">Which one is the sign for Fall Down</string>
+    <string name="EWD_question_7">Which one is the sign for Give</string>
+    <string name="EWD_question_8">Which one is the sign for Drink</string>
+    <string name="EWD_question_9">Which one is the sign for Cooking</string>
+    <string name="EWD_question_10">Which one is the sign for Cry</string>
+
+    <string name="Months_question_1">Which one is the sign for February</string>
+    <string name="Months_question_2">Which one is the sign for May</string>
+    <string name="Months_question_3">Which one is the sign for October</string>
+    <string name="Months_question_4">Which one is the sign for August</string>
+    <string name="Months_question_5">Which one is the sign for March</string>
+    <string name="Months_question_6">Which one is the sign for June</string>
+    <string name="Months_question_7">Which one is the sign for April</string>
+    <string name="Months_question_8">Which one is the sign for July</string>
+    <string name="Months_question_9">Which one is the sign for December</string>
+    <string name="Months_question_10">Which one is the sign for January</string>
+
+    <string name="Questions_question_1">Which one is the sign for Where You From</string>
+    <string name="Questions_question_2">Which one is the sign for Why</string>
+    <string name="Questions_question_3">Which one is the sign for Which</string>
+    <string name="Questions_question_4">Which one is the sign for Who Is That</string>
+    <string name="Questions_question_5">Which one is the sign for What Kind</string>
+    <string name="Questions_question_6">Which one is the sign for What To Do</string>
+    <string name="Questions_question_7">Which one is the sign for What</string>
+    <string name="Questions_question_8">Which one is the sign for You Ok</string>
+    <string name="Questions_question_9">Which one is the sign for How</string>
+    <string name="Questions_question_10">Which one is the sign for How Much</string>
+
+    <string name="PartsOfTheBody_question_1">Which one is the sign for Mouth </string>
+    <string name="PartsOfTheBody_question_2">Which one is the sign for Heart</string>
+    <string name="PartsOfTheBody_question_3">Which one is the sign for Back</string>
+    <string name="PartsOfTheBody_question_4">Which one is the sign for Ear</string>
+    <string name="PartsOfTheBody_question_5">Which one is the sign for Hair</string>
+    <string name="PartsOfTheBody_question_6">Which one is the sign for Bald</string>
+    <string name="PartsOfTheBody_question_7">Which one is the sign for Stomach</string>
+    <string name="PartsOfTheBody_question_8">Which one is the sign for Nose</string>
+    <string name="PartsOfTheBody_question_9">Which one is the sign for Neck</string>
+    <string name="PartsOfTheBody_question_10">Which one is the sign for Hands</string>
+
+    <string name="FamilyMember_question_1">Which one is the sign for Son </string>
+    <string name="FamilyMember_question_2">Which one is the sign for Nephew</string>
+    <string name="FamilyMember_question_3">Which one is the sign for Mom</string>
+    <string name="FamilyMember_question_4">Which one is the sign for Brother</string>
+    <string name="FamilyMember_question_5">Which one is the sign for GrandFather</string>
+    <string name="FamilyMember_question_6">Which one is the sign for Family</string>
+    <string name="FamilyMember_question_7">Which one is the sign for Auntie</string>
+    <string name="FamilyMember_question_8">Which one is the sign for Sister</string>
+    <string name="FamilyMember_question_9">Which one is the sign for Kid</string>
+    <string name="FamilyMember_question_10">Which one is the sign for Dad</string>
+
+    <string name="Shapes_question_1">Which one is the sign for Circle</string>
+    <string name="Shapes_question_2">Which one is the sign for Star</string>
+    <string name="Shapes_question_3">Which one is the sign for Diamond</string>
+    <string name="Shapes_question_4">Which one is the sign for Triangle</string>
+    <string name="Shapes_question_5">Which one is the sign for Oval</string>
+    <string name="Shapes_question_6">Which one is the sign for Rectangle</string>
+    <string name="Shapes_question_7">Which one is the sign for Cone</string>
+    <string name="Shapes_question_8">Which one is the sign for Square</string>
+    <string name="Shapes_question_9">Which one is the sign for Heart</string>
+    <string name="Shapes_question_10">Which one is the sign for </string>
+
+    <string name="ThingsInHome_question_1">Which one is the sign for Chair </string>
+    <string name="ThingsInHome_question_2">Which one is the sign for Spoon</string>
+    <string name="ThingsInHome_question_3">Which one is the sign for Mirror</string>
+    <string name="ThingsInHome_question_4">Which one is the sign for Toothbrush</string>
+    <string name="ThingsInHome_question_5">Which one is the sign for Shoes</string>
+    <string name="ThingsInHome_question_6">Which one is the sign for Blanket</string>
+    <string name="ThingsInHome_question_7">Which one is the sign for House</string>
+    <string name="ThingsInHome_question_8">Which one is the sign for Key</string>
+    <string name="ThingsInHome_question_9">Which one is the sign for Fork</string>
+    <string name="ThingsInHome_question_10">Which one is the sign for Television</string>
+
+
+    End FlashCard Questions
+
+
+    Sign Quiz Game Questions
+
+
+    <string name="SignQuizGameQuestions">What Sign Is This?</string>
+
+    <string name="Alphabets_A">A</string>
+    <string name="Alphabets_B">B</string>
+    <string name="Alphabets_C">C</string>
+    <string name="Alphabets_D">D</string>
+    <string name="Alphabets_X">X</string>
+
+    <string name="answer1">A</string>
+    <string name="answer2">C</string>
+</resources>

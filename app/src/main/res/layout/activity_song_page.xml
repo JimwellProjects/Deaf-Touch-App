@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SongPage"
+    android:orientation="vertical">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mydrawer">
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navigationdrawer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            app:itemIconTint="@color/purple_700"
+            app:itemTextAppearance="@style/TextViewStyle"
+            app:itemHorizontalPadding="30dp"
+            app:menu="@menu/navdrawermenu"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/nav_header">
+
+        </com.google.android.material.navigation.NavigationView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                tools:ignore="Suspicious0dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/selected_page"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/item_bg_2">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.appcompat.widget.Toolbar
+                        android:layout_width="match_parent"
+                        android:background="?actionBarItemBackground"
+                        android:id="@+id/sidetoolbar"
+                        app:popupTheme="@style/Theme.AppCompat.popUpOverlay"
+                        app:layout_scrollFlags="scroll|enterAlways"
+                        android:layout_height="60dp">
+
+                        <ImageView
+                            android:id="@+id/togglebutton"
+                            android:layout_width="30dp"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="22dp"
+                            android:background="@drawable/menuicon"
+                            android:gravity="start"
+                            android:backgroundTint="@color/white"/>
+
+                    </androidx.appcompat.widget.Toolbar>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="65dp"
+                                android:src="@drawable/logo3"
+                                android:layout_gravity="center"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <ImageView
+                        android:layout_width="210dp"
+                        android:layout_height="180dp"
+                        android:src="@drawable/songimage1"
+                        android:scaleType="fitXY"
+                        android:layout_alignParentRight="true"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="70dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Songs PlayList"
+                            android:paddingLeft="25dp"
+                            android:textColor="@color/purple_500"
+                            android:textSize="25sp"
+                            android:fontFamily="@font/baloo_thambi" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="On Learning Sign Language"
+                            android:paddingLeft="25dp"
+                            android:textSize="16sp"
+                            android:textColor="#404040"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Play Songs"
+                            android:paddingLeft="25dp"
+                            android:textColor="@color/purple_500"
+                            android:textSize="20sp"
+                            android:fontFamily="@font/baloo_thambi"
+                            android:layout_marginTop="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="American Simple Sign Language Songs"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#404040"
+                            android:paddingLeft="35dp"
+                            android:layout_marginBottom="10dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/songsicon"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="45dp"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <!--                            <androidx.cardview.widget.CardView-->
+                        <!--                                android:layout_width="match_parent"-->
+                        <!--                                android:layout_height="200dp"-->
+                        <!--                                app:cardCornerRadius="15dp"-->
+                        <!--                                app:cardElevation="6dp"-->
+                        <!--                                android:layout_marginHorizontal="15dp"-->
+                        <!--                                android:layout_marginTop="10dp">-->
+
+                        <!--                                <LinearLayout-->
+                        <!--                                    android:layout_width="match_parent"-->
+                        <!--                                    android:layout_height="wrap_content">-->
+
+                        <!--                                    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView-->
+                        <!--                                        android:id="@+id/youtube_player_view"-->
+                        <!--                                        android:layout_width="match_parent"-->
+                        <!--                                        android:layout_height="200dp"-->
+                        <!--                                        app:videoId="rtuRQG8og_s"-->
+                        <!--                                        app:showFullScreenButton="true"-->
+                        <!--                                        app:autoPlay="false"-->
+                        <!--                                        app:showYouTubeButton="false"/>-->
+
+                        <!--                                </LinearLayout>-->
+
+                        <!--                            </androidx.cardview.widget.CardView>-->
+
+                        <!--                            <TextView-->
+                        <!--                                android:layout_width="wrap_content"-->
+                        <!--                                android:layout_height="wrap_content"-->
+                        <!--                                android:text="Play Other's Songs"-->
+                        <!--                                android:paddingLeft="35dp"-->
+                        <!--                                android:textColor="#175273"-->
+                        <!--                                android:textSize="17sp"-->
+                        <!--                                android:fontFamily="@font/baloo_thambi"-->
+                        <!--                                android:layout_marginTop="20dp"/>-->
+
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/recyclerview"/>
+
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/somethingwrong"
+                                    android:layout_marginTop="20dp"
+                                    android:orientation="vertical"
+                                    android:visibility="gone">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:src="@drawable/server"
+                                        android:layout_gravity="center"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Something Went Wrong In Server"
+                                        android:textColor="#F33737"
+                                        android:textAlignment="center"
+                                        android:layout_gravity="center"
+                                        android:textSize="20sp"
+                                        android:fontFamily="@font/baloo_thambi"
+                                        android:layout_marginTop="20dp"/>
+
+
+                                </LinearLayout>
+
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+  </LinearLayout>

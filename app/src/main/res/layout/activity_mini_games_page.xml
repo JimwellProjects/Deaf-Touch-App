@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MiniGamesPage"
+    android:orientation="vertical">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mydrawer">
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navigationdrawer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            app:itemIconTint="@color/purple_700"
+            app:itemTextAppearance="@style/TextViewStyle"
+            app:itemHorizontalPadding="30dp"
+            app:menu="@menu/navdrawermenu"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/nav_header">
+
+        </com.google.android.material.navigation.NavigationView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+
+            <FrameLayout
+                tools:ignore="Suspicious0dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/selected_page"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/item_bg_2">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.appcompat.widget.Toolbar
+                        android:layout_width="match_parent"
+                        android:background="?actionBarItemBackground"
+                        android:id="@+id/sidetoolbar"
+                        app:popupTheme="@style/Theme.AppCompat.popUpOverlay"
+                        app:layout_scrollFlags="scroll|enterAlways"
+                        android:layout_height="60dp">
+
+                        <ImageView
+                            android:id="@+id/togglebutton"
+                            android:layout_width="30dp"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="22dp"
+                            android:background="@drawable/menuicon"
+                            android:gravity="start"
+                            android:backgroundTint="@color/white"/>
+
+                    </androidx.appcompat.widget.Toolbar>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="65dp"
+                                android:src="@drawable/logo3"
+                                android:layout_gravity="center"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:onClick="ShowPopUser"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/user"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="15dp"
+                            android:backgroundTint="@color/white"/>
+
+
+                    </LinearLayout>
+
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageButton
+                            android:onClick="LeaderBoardPage"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:background="@drawable/ranking"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="40dp"
+                            android:layout_marginTop="60dp"
+                            android:layout_alignParentRight="true"/>
+
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="0dp">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/minigamesicon"
+                            app:civ_border_color="#0277BD"
+                            app:civ_border_width="1dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/baloo_thambi"
+                            android:paddingLeft="25dp"
+                            android:text="Let's Play"
+                            android:textColor="#0277BD"
+                            android:textSize="30sp"
+                            android:id="@+id/text_fullname"
+                            android:layout_marginTop="40dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed-medium"
+                            android:paddingLeft="25dp"
+                            android:text="Choose a category to start playing"
+                            android:textColor="#5C5C5C"
+                            android:textSize="16sp" />
+
+
+
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="220dp"
+                android:orientation="vertical">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="40dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="140dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/card"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="50dp"
+                                android:layout_marginEnd="70dp"
+                                android:fontFamily="@font/righteous"
+                                android:gravity="end"
+                                android:text="Flash Card Game"
+                                android:textColor="@color/white"
+                                android:textSize="21sp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="end"
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="80dp"
+                                    android:layout_marginEnd="20dp"
+                                    android:src="@drawable/m_btn"
+                                    android:background="?actionBarItemBackground"
+                                    android:onClick="CategoryGame1"/>
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="140dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/quiz"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="70dp"
+                                android:layout_marginTop="40dp"
+                                android:fontFamily="@font/righteous"
+                                android:gravity="start"
+                                android:text="Sign Quiz Game "
+                                android:textColor="@color/white"
+                                android:textSize="21sp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="start"
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="15dp"
+                                    android:layout_marginTop="75dp"
+                                    android:src="@drawable/an_btn"
+                                    android:background="?actionBarItemBackground"
+                                    android:onClick="SignQuizGame"/>
+                            </LinearLayout>
+
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="140dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/guess"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="50dp"
+                                android:layout_marginEnd="50dp"
+                                android:fontFamily="@font/righteous"
+                                android:gravity="end"
+                                android:text="Guess The Sign Game "
+                                android:textColor="@color/white"
+                                android:textSize="21sp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="end"
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/allknowledge_start"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="80dp"
+                                    android:layout_marginEnd="20dp"
+                                    android:src="@drawable/allknow_btn"
+                                    android:background="?actionBarItemBackground"
+                                    android:onClick="GuessSignGame"/>
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+
+
+
+
+
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+            </LinearLayout>
+
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:menu="@menu/homenav"
+                android:id="@+id/naview"
+                android:background="@drawable/background_round"
+                android:layout_alignParentBottom="true"
+                app:itemIconTint="@drawable/bottomiconcolor"
+                app:itemTextColor="@drawable/bottomiconcolor"/>
+
+            <!--            app:labelVisibilityMode="selected"-->
+
+        </RelativeLayout>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</LinearLayout>
+

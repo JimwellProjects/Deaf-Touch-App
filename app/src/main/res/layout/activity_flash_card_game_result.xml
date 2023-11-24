@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FlashCardGame.FlashCardGameResult"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="6dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:id="@+id/backbtninimage"
+                android:onClick="backbuttonimage">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#D84315">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="7dp">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:src="@drawable/leftarrow"
+                            app:tint="@color/white"
+                            android:layout_marginLeft="5dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="back"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="3dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="65dp"
+                        android:src="@drawable/logo2"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#3194f4">
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:src="@drawable/trophy"
+                android:scaleType="fitXY"
+                android:layout_marginTop="80dp"/>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/tv_congratulations"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/righteous"
+                    android:paddingLeft="22dp"
+                    android:text="Game"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/gameimage2"
+                    android:scaleType="fitXY"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:fontFamily="@font/righteous"/>
+
+            <TextView
+                android:id="@+id/tv_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Score is 9 out of 10"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:fontFamily="@font/righteous"/>
+
+            <Button
+                android:onClick="playagain"
+                android:id="@+id/btn_finish"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="60dp"
+                android:text="Play Again"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#021C49"
+                android:textSize="16sp"
+                android:fontFamily="@font/righteous" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                app:cardCornerRadius="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:onClick="ExiGame">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#36EDEDED">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/baloo_thambi"
+                        android:text="Exit Game"
+                        android:textColor="#252525" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

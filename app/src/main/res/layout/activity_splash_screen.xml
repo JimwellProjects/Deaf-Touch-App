@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    android:orientation="vertical"
+    android:background="@color/purple_500">
+
+
+    <!--    <androidx.cardview.widget.CardView-->
+    <!--        android:layout_width="160dp"-->
+    <!--        android:layout_height="160dp"-->
+    <!--        app:cardCornerRadius="100dp"-->
+    <!--        app:cardElevation="0dp"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:layout_marginTop="100dp">-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:scaleType="fitXY"-->
+    <!--            android:src="@drawable/logo"/>-->
+
+    <!--    </androidx.cardview.widget.CardView>-->
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/learnicon"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        app:civ_border_width="3dp"
+        app:civ_border_color="#EDEAEA"/>
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/loadinggif"
+        android:layout_marginTop="250dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/archivo_black"
+            android:text="Deaf"
+            android:textColor="#022440"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/archivo_black"
+            android:paddingLeft="4dp"
+            android:text="Touch"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+

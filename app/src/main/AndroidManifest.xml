@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="edu.ucu.cite.deaftouchapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/learnicon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@drawable/learnicon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DeafTouchApp"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".VideosPageWatch3"></activity>
+        <activity android:name=".VideosPageWatch2" />
+        <activity android:name=".LeaderBoard.User_Register" />
+        <activity android:name=".LeaderBoard.User_Login" />
+        <activity android:name=".LeaderBoard.Leaderboard" />
+        <activity android:name=".IntroScreen.IntroActivity" />
+        <activity android:name=".SignQuizGame2.SignQuizGame_1" />
+        <activity android:name=".AdapterGame.trygame" />
+        <activity android:name=".LearnCategoryPage.LearnCategory14Shapes" />
+        <activity android:name=".LearnCategoryPage.LearnCategory13ThingsInHome" />
+        <activity android:name=".LearnCategoryPage.LearnCategory12FamilyMembers" />
+        <activity android:name=".GuessTheSignGame.GuessTheSignGameSelectCategories" />
+        <activity android:name=".GuessTheSignGame.GuessTheSignGameResult" />
+        <activity android:name=".GuessTheSignGame.Greetings_Game1" />
+        <activity android:name=".GuessTheSignGame.Greetings_Game2" />
+        <activity android:name=".GuessTheSignGame.Greetings_Game3" />
+        <activity android:name=".GuessTheSignGame.Greetings_Game4" />
+        <activity android:name=".GuessTheSignGame.Greetings_Game5" />
+        <activity android:name=".GuessTheSignGame.Animals_Game1" />
+        <activity android:name=".GuessTheSignGame.Animals_Game2" />
+        <activity android:name=".GuessTheSignGame.Animals_Game3" />
+        <activity android:name=".GuessTheSignGame.Animals_Game4" />
+        <activity android:name=".GuessTheSignGame.Animals_Game5" />
+        <activity android:name=".GuessTheSignGame.Colors_Game1" />
+        <activity android:name=".GuessTheSignGame.Colors_Game2" />
+        <activity android:name=".GuessTheSignGame.Colors_Game3" />
+        <activity android:name=".GuessTheSignGame.Colors_Game4" />
+        <activity android:name=".GuessTheSignGame.Colors_Game5" />
+        <activity android:name=".GuessTheSignGame.Emotions_Game1" />
+        <activity android:name=".GuessTheSignGame.Emotions_Game2" />
+        <activity android:name=".GuessTheSignGame.Emotions_Game3" />
+        <activity android:name=".GuessTheSignGame.Emotions_Game4" />
+        <activity android:name=".GuessTheSignGame.Emotions_Game5" />
+        <activity android:name=".GuessTheSignGame.Foods_Game1" />
+        <activity android:name=".GuessTheSignGame.Foods_Game2" />
+        <activity android:name=".GuessTheSignGame.Foods_Game3" />
+        <activity android:name=".GuessTheSignGame.Foods_Game4" />
+        <activity android:name=".GuessTheSignGame.Foods_Game5" />
+        <activity android:name=".GuessTheSignGame.Ewd_Game1" />
+        <activity android:name=".GuessTheSignGame.Ewd_Game2" />
+        <activity android:name=".GuessTheSignGame.Ewd_Game3" />
+        <activity android:name=".GuessTheSignGame.Ewd_Game4" />
+        <activity android:name=".GuessTheSignGame.Ewd_Game5" />
+        <activity android:name=".GuessTheSignGame.Months_Game1" />
+        <activity android:name=".GuessTheSignGame.Months_Game2" />
+        <activity android:name=".GuessTheSignGame.Months_Game3" />
+        <activity android:name=".GuessTheSignGame.Months_Game4" />
+        <activity android:name=".GuessTheSignGame.Months_Game5" />
+        <activity android:name=".GuessTheSignGame.Questions_Game1" />
+        <activity android:name=".GuessTheSignGame.Questions_Game2" />
+        <activity android:name=".GuessTheSignGame.Questions_Game3" />
+        <activity android:name=".GuessTheSignGame.Questions_Game4" />
+        <activity android:name=".GuessTheSignGame.Questions_Game5" />
+        <activity android:name=".GuessTheSignGame.Bodyparts_Game1" />
+        <activity android:name=".GuessTheSignGame.Bodyparts_Game2" />
+        <activity android:name=".GuessTheSignGame.Bodyparts_Game3" />
+        <activity android:name=".GuessTheSignGame.Bodyparts_Game4" />
+        <activity android:name=".GuessTheSignGame.Bodyparts_Game5" />
+        <activity android:name=".GuessTheSignGame.FamilyMember_Game1" />
+        <activity android:name=".GuessTheSignGame.FamilyMember_Game2" />
+        <activity android:name=".GuessTheSignGame.FamilyMember_Game3" />
+        <activity android:name=".GuessTheSignGame.FamilyMember_Game4" />
+        <activity android:name=".GuessTheSignGame.FamilyMember_Game5" />
+        <activity android:name=".SongPage" />
+        <activity android:name=".GuessTheSignGame.GuessTheSignGame_1" />
+        <activity android:name=".FlashCardGame.FlashCardGameSelectCategories" />
+        <activity android:name=".FlashCardGame.FlashCardGameResult" />
+        <activity android:name=".FlashCardGame.FlashCardGame_1" />
+        <activity android:name=".FlashCardGame.FlashCardGameQuestions2Numbers" />
+        <activity android:name=".FlashCardGame.FlashCardGameQuestions3Greetings" />
+        <activity android:name=".FlashCardGame.FlashCardGameQuestions4Emotions" />
+        <activity android:name=".FlashCardGame.FlashCardGameQuestions5Colors" />
+        <activity android:name=".FlashCardGame.FlashCardGameQuestions6Animals" />
+        <activity android:name=".FlashCardGame.FlashCardGameQuestions7Foods" />
+        <activity android:name=".FlashCardGame.FlashCardGameQuestions8EverythingWeDo" />
+        <activity android:name=".FlashCardGame.FlashCardGameQuestions9Months" />
+        <activity android:name=".FlashCardGame.FlashCardGameQuestions10Questions" />
+        <activity android:name=".FlashCardGame.FlashCardGameQuestions11PartOfTheBody" />
+        <activity android:name=".FlashCardGame.FlashCardGameQuestions12FamilyMember" />
+        <activity android:name=".FlashCardGame.FlashCardGameQuestions13Shapes" />
+        <activity android:name=".FlashCardGame.FlashCardGameQuestions14ThingsInHome" />
+        <activity android:name=".LearnCategoryPage.LearnCategory11PartsOfTheBody" />
+        <activity android:name=".SignQuizGame" />
+        <activity android:name=".SongsPageVideo" />
+        <activity android:name=".NoInternetLayout" />
+        <activity android:name=".VideosPageWatch" />
+        <activity android:name=".LearnCategoryPage.Category_Item_Data2" />
+        <activity android:name=".VideosPageContent" />
+        <activity android:name=".SignQuizGameSelectCategories" />
+        <activity android:name=".SigQuizGameResult" />
+        <activity android:name=".SignQuizGameQuestions" />
+        <activity android:name=".FlashCardGameWelcomePage" />
+        <activity android:name=".GuessSignGameWelcomePage" />
+        <activity android:name=".SignQuizGameWelcomePage" />
+        <activity android:name=".AboutUsPage" />
+        <activity android:name=".LearnCategoryPage.LearnCategory10Questions" />
+        <activity android:name=".LearnCategoryPage.LearnCategory9Months" />
+        <activity android:name=".LearnCategoryPage.LearnCategory8EverythingWeDo" />
+        <activity android:name=".LearnCategoryPage.LearnCategory7Foods" />
+        <activity android:name=".LearnCategoryPage.LearnCategory6Animals" />
+        <activity android:name=".LearnCategoryPage.LearnCategory5Colors" />
+        <activity android:name=".LearnCategoryPage.LearnCategory4Emotions" />
+        <activity android:name=".LearnCategoryPage.LearnCategory3Greetings" />
+        <activity android:name=".LearnCategoryPage.Category_Item_Data" />
+        <activity android:name=".ContentVideos_1" />
+        <activity android:name=".LearnCategoryPage.LearnCategory1Alphabets" />
+        <activity android:name=".LearnCategoryPage.LearnCategory2Numbers" />
+        <activity android:name=".VideosPage" />
+        <activity android:name=".SignQuizGameQuestions2Numbers" />
+        <activity android:name=".SignQuizGameQuestions3Greetings" />
+        <activity android:name=".SignQuizGameQuestions4Emotions" />
+        <activity android:name=".SignQuizGameQuestions5Colors" />
+        <activity android:name=".SignQuizGameQuestions6Animals" />
+        <activity android:name=".SignQuizGameQuestions7Foods" />
+        <activity android:name=".SignQuizGameQuestions8EverythingWeDo" />
+        <activity android:name=".SignQuizGameQuestions9Months" />
+        <activity android:name=".SignQuizGameQuestions10Questions" />
+        <activity android:name=".SignQuizGameQuestions11PartOfTheBody" />
+        <activity android:name=".SignQuizGameQuestions12FamilyMember" />
+        <activity android:name=".SignQuizGameQuestions13Shapes" />
+        <activity android:name=".SignQuizGameQuestions14ThingsInHome" />
+        <activity
+            android:name=".LearnCategory"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MiniGamesPage" />
+        <activity
+            android:name=".TranslatePage"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".WelcomePage" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

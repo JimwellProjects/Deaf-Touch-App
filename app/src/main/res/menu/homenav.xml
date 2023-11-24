@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <item
+            android:title="Learn ASL"
+            android:id="@+id/LearnASL"
+            android:icon="@drawable/bottomhomeicon"
+            android:enabled="true" />
+
+        <item
+            android:id="@+id/Translate"
+            android:icon="@drawable/bottomtranslateicon"
+            android:enabled="true"
+            android:title="Translate" />
+
+        <item
+            android:id="@+id/Minigames"
+            android:icon="@drawable/bottomgamesicon"
+            android:enabled="true"
+            android:title="Mini Games"/>
+
+    </menu>
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="360dp"
+    android:layout_height="400dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    app:cardCornerRadius="10dp"
+    tools:context=".MiniGamesPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:src="@drawable/xbutton"
+            android:layout_gravity="right"
+            android:layout_margin="10dp"
+            android:id="@+id/txtclose"/>
+
+        <ImageView
+            android:id="@+id/popupimageuser"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/user"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/popupusername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guess The Sign Language"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="#171515"
+            android:textSize="20sp"
+            android:fontFamily="@font/righteous"/>
+
+        <Button
+            android:onClick="btn_logout"
+            android:textAllCaps="false"
+            android:id="@+id/btn_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#fff"
+            android:drawableTint="@color/gradient_start_color"
+            android:text="Log Out"
+            android:textColor="@color/gradient_start_color"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

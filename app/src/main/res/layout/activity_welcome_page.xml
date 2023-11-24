@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomePage"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purple_500">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:src="@drawable/deaf"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_wave"
+            android:layout_marginTop="360dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="420dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_thambi"
+                android:paddingLeft="35dp"
+                android:text="Welcome To"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:layout_marginTop="30dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="35dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Deaf"
+                    android:textColor="#01264E"
+                    android:textSize="32sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/archivo_black"
+                    android:paddingLeft="4dp"
+                    android:text="Touch"
+                    android:textColor="@color/white"
+                    android:textSize="32sp"
+                    android:paddingRight="10dp"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/learnicon"
+                    android:layout_gravity="center"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#EDEAEA" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/carter_one"
+                android:paddingLeft="35dp"
+                android:text="Keeping deaf community"
+                android:textColor="#E8E8E8"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/carter_one"
+                android:paddingLeft="35dp"
+                android:text="connected at every moment"
+                android:textColor="#E8E8E8"
+                android:textSize="13sp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Get Started"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="#021C49"
+                android:onClick="getstarted"
+                android:layout_marginHorizontal="40dp"
+                android:fontFamily="@font/baloo_thambi"
+                android:textSize="17sp"/>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

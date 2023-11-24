@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignQuizGameQuestions"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="65dp"
+        android:src="@drawable/logo2"
+        android:layout_gravity="center"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textColor="#363A43"
+                android:textSize="25sp"
+                tools:text="What Sign Is This?"
+                android:fontFamily="@font/baloo"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="6dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginHorizontal="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#1D3557">
+
+                <ImageView
+                    android:id="@+id/iv_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="220dp"
+                    android:layout_marginTop="16dp"
+                    android:contentDescription="image"
+                    tools:src="@drawable/alphabets_a"
+                    android:layout_marginRight="120dp"
+                    android:scaleType="fitXY"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+                        <ProgressBar
+                            android:id="@+id/progressBar"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:indeterminate="false"
+                            android:background="@drawable/circle_shape"
+                            android:progressDrawable="@drawable/circle_progress_bar"
+                            android:max="10"
+                            android:layout_centerInParent="true"/>
+
+                        <TextView
+                            android:id="@+id/tv_progress"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:textColorHint="#7A8089"
+                            android:textSize="14sp"
+                            tools:text="0/10"
+                            android:layout_marginTop="2dp"/>
+
+
+        </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="0dp">
+
+                <TextView
+                    android:id="@+id/tv_option_one"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/default_option_border_bg"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:textColor="#7A8089"
+                    android:textSize="18sp"
+                    tools:text="Apple" />
+
+                <TextView
+                    android:id="@+id/tv_option_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/default_option_border_bg"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:textColor="#7A8089"
+                    android:textSize="18sp"
+                    tools:text="Google" />
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tv_option_three"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/default_option_border_bg"
+                android:gravity="center"
+                android:padding="15dp"
+                android:textColor="#7A8089"
+                android:textSize="18sp"
+                tools:text="Android Inc." />
+
+            <TextView
+                android:id="@+id/tv_option_four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/default_option_border_bg"
+                android:gravity="center"
+                android:padding="15dp"
+                android:textColor="#7A8089"
+                android:textSize="18sp"
+                tools:text="Nokia" />
+
+        </LinearLayout>
+
+
+
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp"
+                android:text="SUBMIT"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@color/purple_500"
+                android:layout_marginTop="10dp"/>
+
+            <RelativeLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/correctbtn"
+                android:layout_marginTop="-50dp">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/win2"
+                    android:layout_centerHorizontal="true"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="150dp">
+
+                    <ImageView
+
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/check"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Correct Answer"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000000"
+                        android:fontFamily="@font/baloo"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/wrongbtn"
+                android:layout_marginTop="-10dp">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/wronganswer2"
+                    android:layout_centerHorizontal="true"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="100dp">
+
+                    <ImageView
+
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/xbutton"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Wrong Answer"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/baloo"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
